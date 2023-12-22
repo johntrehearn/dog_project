@@ -76,8 +76,16 @@
         "id": 44,
         "name": "a",
         "length": "11",
-        "weighKg": "221",
+        "weighKg": "1",
         "breed": "ffff",
+        "number": null
+    },
+    {
+        "id": 11,
+        "name": "tanjs",
+        "length": "61",
+        "weightKg": "12",
+        "breed": "funny",
         "number": null
     }
 ]

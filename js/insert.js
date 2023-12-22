@@ -38,7 +38,7 @@
       id: +idField.value,
       name: nameField.value,
       length: lengthField.value,
-      weighKg: weighKgField.value,
+      weightKg: weighKgField.value,
       breed: breedField.value,
     };
 
