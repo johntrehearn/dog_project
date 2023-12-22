@@ -1,0 +1,83 @@
+[
+    {
+        "id": 7,
+        "name": "Barky",
+        "length": 70,
+        "weightKg": 20,
+        "breed": "spaniel"
+    },
+    {
+        "id": 4,
+        "name": "Rex",
+        "length": 50,
+        "weightKg": 7,
+        "breed": "muddypaw"
+    },
+    {
+        "id": 3,
+        "name": "Grand Duke of S.Q.L",
+        "length": 35,
+        "weightKg": 45,
+        "breed": "furry tail-wagger"
+    },
+    {
+        "id": 6,
+        "name": "Gigant Howler",
+        "length": 30,
+        "weightKg": 5,
+        "breed": "datahound"
+    },
+    {
+        "id": 2,
+        "name": "Hound of Basker W.I.11e",
+        "length": 20,
+        "weightKg": 10,
+        "breed": "bulldog"
+    },
+    {
+        "id": 5,
+        "name": "Canine The III",
+        "length": 42,
+        "weightKg": 1,
+        "breed": "watchdog"
+    },
+    {
+        "id": 1,
+        "name": "Spot",
+        "length": 40,
+        "weightKg": 15,
+        "breed": "lapdog"
+    },
+    {
+        "id": 99,
+        "firstname": "a",
+        "lastname": "a",
+        "department": "a",
+        "salary": null,
+        "number": null
+    },
+    {
+        "id": 34,
+        "name": "a",
+        "lengthField": "111",
+        "weighKgField": "12",
+        "breedField": "ddd",
+        "number": null
+    },
+    {
+        "id": 55,
+        "name": "ben",
+        "lengthField": "77",
+        "weighKgField": "99",
+        "breedField": "cheeky",
+        "number": null
+    },
+    {
+        "id": 44,
+        "name": "a",
+        "length": "11",
+        "weighKg": "221",
+        "breed": "ffff",
+        "number": null
+    }
+]
