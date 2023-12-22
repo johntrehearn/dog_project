@@ -40,52 +40,5 @@
         "length": 42,
         "weightKg": 1,
         "breed": "watchdog"
-    },
-    {
-        "id": 1,
-        "name": "Spot",
-        "length": 40,
-        "weightKg": 15,
-        "breed": "lapdog"
-    },
-    {
-        "id": 99,
-        "firstname": "a",
-        "lastname": "a",
-        "department": "a",
-        "salary": null,
-        "number": null
-    },
-    {
-        "id": 34,
-        "name": "a",
-        "lengthField": "111",
-        "weighKgField": "12",
-        "breedField": "ddd",
-        "number": null
-    },
-    {
-        "id": 55,
-        "name": "ben",
-        "lengthField": "77",
-        "weighKgField": "99",
-        "breedField": "cheeky",
-        "number": null
-    },
-    {
-        "id": 44,
-        "name": "a",
-        "length": "11",
-        "weighKg": "1",
-        "breed": "ffff",
-        "number": null
-    },
-    {
-        "id": 11,
-        "name": "tanjs",
-        "length": "61",
-        "weightKg": "12",
-        "breed": "funny",
-        "number": null
     }
 ]
