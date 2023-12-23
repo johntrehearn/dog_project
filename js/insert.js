@@ -1,7 +1,7 @@
 'use strict';
 
 (function () {
-  let idField;
+  let numberField;
   let nameField;
   let lengthField;
   let weighKgField;
@@ -12,7 +12,7 @@
 
   function init() {
     resultarea = document.getElementById('resultarea');
-    idField = document.getElementById('id');
+    numberField = document.getElementById('id');
     nameField = document.getElementById('name');
     lengthField = document.getElementById('length');
     weighKgField = document.getElementById('weightKg');
@@ -20,11 +20,11 @@
 
     document.getElementById('submit').addEventListener('click', send);
 
-    idField.addEventListener('focus', clear);
+    numberField.addEventListener('focus', clear);
   }
 
   function clear() {
-    idField.value = '';
+    numberField.value = '';
     nameField.value = '';
     lengthField.value = '';
     weighKgField.value = '';
@@ -35,7 +35,7 @@
 
   async function send() {
     const person = {
-      id: +idField.value,
+      id: +numberField.value,
       name: nameField.value,
       length: lengthField.value,
       weightKg: weighKgField.value,

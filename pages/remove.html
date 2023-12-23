@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu</title>
+    <title>Remove</title>
     <link rel="stylesheet" href="/styles/basicStyles.css" />
+    <script src="/js/remove.js"></script>
   </head>
   <body>
     <main>
-      <h1>Menu</h1>
-      <a href="/pages/getAll.html"><button>Get all dogs</button></a>
-      <a href="/pages/getOne.html"><button>Get one dog</button></a>
-      <a href="/pages/insert.html"><button>Add dog</button></a>
-      <a href="/pages/remove.html"><button>Remove dog</button></a>
+      <h1>Remove dog</h1>
+      <p>
+        <label for="rmid">Dog number:</label>
+        <input type="text" id="rmid" />
+      </p>
+      <button id="submit">Remove</button>
+      <p id="resultarea"></p>
+      <a href="/"><button>Menu</button></a>
     </main>
   </body>
 </html>
