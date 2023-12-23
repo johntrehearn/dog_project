@@ -8,7 +8,7 @@
 
   function init() {
     resultarea = document.getElementById('resultarea');
-    inputField = document.getElementById('get1id');
+    inputField = document.getElementById('rmid');
 
     document.getElementById('submit').addEventListener('click', send);
     inputField.addEventListener('focus', clear);
@@ -32,12 +32,12 @@
     } else {
       try {
         const options = {
-          method: 'GET',
+          method: 'POST',
           body: JSON.stringify({value}),
           headers: {'Content-Type': 'application/json'},
         };
 
-        const data = await fetch('/get', options);
+        const data = await fetch('/remove', options);
         const result = await data.json();
         updateStatus(result);
       } catch (err) {

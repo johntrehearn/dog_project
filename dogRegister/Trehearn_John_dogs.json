@@ -1,12 +1,5 @@
 [
     {
-        "id": 7,
-        "name": "Barky",
-        "length": 70,
-        "weightKg": 20,
-        "breed": "spaniel"
-    },
-    {
         "id": 4,
         "name": "Rex",
         "length": 50,
