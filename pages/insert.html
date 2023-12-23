@@ -4,33 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Add data</title>
-    <link rel="stylesheet" href="/styles/basicStyles.css" />
+    <title>Add Dog</title>
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:ital,wght@1,300&family=Rubik+Broken+Fax&family=Rubik+Doodle+Shadow&display=swap"
+      rel="stylesheet"
+    />
     <script src="/js/insert.js"></script>
   </head>
   <body>
     <main>
       <h1>Add Dog</h1>
-      <div id="fields">
+      <div class="inputFields" id="fields">
         <p>
-          <label>Number <input type="text" id="id" /></label>
+          <label>Number<input type="text" id="id" /></label>
         </p>
         <p>
-          <label>Name: <input type="text" id="name" /></label>
+          <label>Name <input type="text" id="name" /></label>
         </p>
         <p>
           <label>Length<input type="text" id="length" /></label>
         </p>
         <p>
-          <label>Weight Kg<input type="text" id="weightKg" /></label>
+          <label>Kg<input type="text" id="weightKg" /></label>
         </p>
         <p>
           <label>Breed <input type="text" id="breed" /></label>
         </p>
       </div>
-      <button id="submit">Submit</button>
-      <div id="resultarea"></div>
-      <a href="/"><button>Menu</button></a>
+      <div class="singleOutput">
+        <button class="homeBut" id="submit">Submit</button>
+      </div>
+      <div class="resArea" id="resultarea"></div>
+      <div class="singleOutput">
+        <a href="/"><button class="homeBut">Home</button></a>
+      </div>
     </main>
   </body>
 </html>

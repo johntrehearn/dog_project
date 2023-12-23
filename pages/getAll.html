@@ -4,27 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>All employees</title>
-    <link rel="stylesheet" href="/styles/basicStyles.css" />
+    <title>All Dogs</title>
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:ital,wght@1,300&family=Rubik+Broken+Fax&family=Rubik+Doodle+Shadow&display=swap"
+      rel="stylesheet"
+    />
     <script src="/js/getAll.js"></script>
   </head>
   <body>
     <main>
       <h1>All Dogs</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Number</th>
-            <th>Name</th>
-            <th>Length</th>
-            <th>Weight Kg</th>
-            <th>Breed</th>
-          </tr>
-        </thead>
-        <tbody id="resultset"></tbody>
-      </table>
+      <div class="tableContainer">
+        <table>
+          <thead>
+            <tr>
+              <th>Number</th>
+              <th>Name</th>
+              <th>Length</th>
+              <th>Weight Kg</th>
+              <th>Breed</th>
+            </tr>
+          </thead>
+          <tbody id="resultset"></tbody>
+        </table>
+      </div>
       <div id="messagearea"></div>
-      <a href="/"><button>Menu</button></a>
+      <div class="menuButt">
+        <a href="/"><button class="homeBut">Home</button></a>
+      </div>
     </main>
   </body>
 </html>

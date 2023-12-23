@@ -21,10 +21,51 @@
         "breed": "datahound"
     },
     {
-        "id": 5,
-        "name": "Canine The III",
-        "length": 42,
-        "weightKg": 1,
-        "breed": "watchdog"
+        "id": 11,
+        "name": "John",
+        "length": "11",
+        "weightKg": "",
+        "breed": "",
+        "number": null
+    },
+    {
+        "id": 12,
+        "name": "John ",
+        "length": "11",
+        "weightKg": "22",
+        "breed": "11",
+        "number": null
+    },
+    {
+        "id": 111,
+        "name": "111",
+        "length": "111",
+        "weightKg": "111",
+        "breed": "111",
+        "number": null
+    },
+    {
+        "id": 22,
+        "name": "22",
+        "length": "22",
+        "weightKg": "22",
+        "breed": "22",
+        "number": null
+    },
+    {
+        "id": 555,
+        "name": "55",
+        "length": "55",
+        "weightKg": "55",
+        "breed": "55",
+        "number": null
+    },
+    {
+        "id": 2,
+        "name": "2",
+        "length": "2",
+        "weightKg": "2",
+        "breed": "2",
+        "number": null
     }
 ]

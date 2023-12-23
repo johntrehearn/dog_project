@@ -4,20 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Remove</title>
-    <link rel="stylesheet" href="/styles/basicStyles.css" />
+    <title>Remove Dog</title>
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:ital,wght@1,300&family=Rubik+Broken+Fax&family=Rubik+Doodle+Shadow&display=swap"
+      rel="stylesheet"
+    />
+
     <script src="/js/remove.js"></script>
   </head>
   <body>
     <main>
       <h1>Remove dog</h1>
-      <p>
-        <label for="rmid">Dog number:</label>
-        <input type="text" id="rmid" />
-      </p>
-      <button id="submit">Remove</button>
+      <div class="singleInput">
+        <p class="rmInput">
+          <label for="rmid">Dog Number:</label>
+          <input type="text" id="rmid" />
+        </p>
+      </div>
+      <div class="singleInput">
+        <button class="homeBut" id="submit">Remove</button>
+      </div>
       <p id="resultarea"></p>
-      <a href="/"><button>Menu</button></a>
+      <div class="singleOutput">
+        <a href="/"><button class="homeBut">Home</button></a>
+      </div>
     </main>
   </body>
 </html>

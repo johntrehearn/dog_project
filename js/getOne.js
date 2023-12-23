@@ -76,10 +76,10 @@
   function createPerson(dog) {
     return `<div class="person">
         <p>Number: ${dog.id}</p>
-        <p>First name: ${dog.name}</p>
-        <p>Last name: ${dog.length}</p>
-        <p>Department: ${dog.weightKg}</p>
-        <p>Salary: ${dog.breed}</p>
+        <p>Name: ${dog.name}</p>
+        <p>Length: ${dog.length}</p>
+        <p>Weight in Kg: ${dog.weightKg}</p>
+        <p>Breed: ${dog.breed}</p>
     </div>`;
   }
 
