@@ -21,13 +21,6 @@
         "breed": "datahound"
     },
     {
-        "id": 2,
-        "name": "Hound of Basker W.I.11e",
-        "length": 20,
-        "weightKg": 10,
-        "breed": "bulldog"
-    },
-    {
         "id": 5,
         "name": "Canine The III",
         "length": 42,
